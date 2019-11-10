@@ -83,6 +83,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E365FD32377A971008F682B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2E365FD42377A97C008F682B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2E365FD52377A984008F682B /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		2E365FD62377A98D008F682B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				844B9282223766DB00BF79DE /* ContactsListViewController.swift */,
+				846137C4220555E9009194EA /* ContactDetailsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2E365FD72377AA0A008F682B /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				8412B6CB21FFFD7D00EA728D /* Main.storyboard */,
+				8412B6D021FFFD8100EA728D /* LaunchScreen.storyboard */,
+				84633257223F7B8D003E6336 /* icons */,
+			);
+			path = GUI;
+			sourceTree = "<group>";
+		};
+		2E365FD82377AA2A008F682B /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				8412B6D321FFFD8100EA728D /* Info.plist */,
+				8412B6C721FFFD7D00EA728D /* AppDelegate.swift */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
 		8412B6BB21FFFD7D00EA728D = {
 			isa = PBXGroup;
 			children = (
@@ -102,13 +151,12 @@
 		8412B6C621FFFD7D00EA728D /* Contacts */ = {
 			isa = PBXGroup;
 			children = (
-				844B9282223766DB00BF79DE /* ContactsListViewController.swift */,
-				8412B6C721FFFD7D00EA728D /* AppDelegate.swift */,
-				846137C4220555E9009194EA /* ContactDetailsViewController.swift */,
-				8412B6CB21FFFD7D00EA728D /* Main.storyboard */,
-				8412B6D021FFFD8100EA728D /* LaunchScreen.storyboard */,
-				8412B6D321FFFD8100EA728D /* Info.plist */,
-				84633257223F7B8D003E6336 /* icons */,
+				2E365FD82377AA2A008F682B /* Global */,
+				2E365FD72377AA0A008F682B /* GUI */,
+				2E365FD62377A98D008F682B /* Controller */,
+				2E365FD52377A984008F682B /* Engine */,
+				2E365FD42377A97C008F682B /* Model */,
+				2E365FD32377A971008F682B /* View */,
 			);
 			path = Contacts;
 			sourceTree = "<group>";
