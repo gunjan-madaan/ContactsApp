@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E365FDA2377ADF4008F682B /* ContactDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E365FD92377ADF4008F682B /* ContactDetails.swift */; };
+		2E365FDC2377B3AF008F682B /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E365FDB2377B3AF008F682B /* ContactCell.swift */; };
+		2E365FDE2377B59D008F682B /* ContactsEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E365FDD2377B59D008F682B /* ContactsEngine.swift */; };
 		8412B6C821FFFD7D00EA728D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8412B6C721FFFD7D00EA728D /* AppDelegate.swift */; };
 		8412B6CD21FFFD7D00EA728D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8412B6CB21FFFD7D00EA728D /* Main.storyboard */; };
 		8412B6D221FFFD8100EA728D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8412B6D021FFFD8100EA728D /* LaunchScreen.storyboard */; };
@@ -39,6 +42,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E365FD92377ADF4008F682B /* ContactDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetails.swift; sourceTree = "<group>"; };
+		2E365FDB2377B3AF008F682B /* ContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
+		2E365FDD2377B59D008F682B /* ContactsEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsEngine.swift; sourceTree = "<group>"; };
 		8412B6C421FFFD7D00EA728D /* Contacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8412B6C721FFFD7D00EA728D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8412B6CC21FFFD7D00EA728D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -86,6 +92,7 @@
 		2E365FD32377A971008F682B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2E365FDB2377B3AF008F682B /* ContactCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -93,6 +100,7 @@
 		2E365FD42377A97C008F682B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2E365FD92377ADF4008F682B /* ContactDetails.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -100,6 +108,7 @@
 		2E365FD52377A984008F682B /* Engine */ = {
 			isa = PBXGroup;
 			children = (
+				2E365FDD2377B59D008F682B /* ContactsEngine.swift */,
 			);
 			path = Engine;
 			sourceTree = "<group>";
@@ -126,8 +135,8 @@
 		2E365FD82377AA2A008F682B /* Global */ = {
 			isa = PBXGroup;
 			children = (
-				8412B6D321FFFD8100EA728D /* Info.plist */,
 				8412B6C721FFFD7D00EA728D /* AppDelegate.swift */,
+				8412B6D321FFFD8100EA728D /* Info.plist */,
 			);
 			path = Global;
 			sourceTree = "<group>";
@@ -286,7 +295,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E365FDC2377B3AF008F682B /* ContactCell.swift in Sources */,
 				844B9283223766DB00BF79DE /* ContactsListViewController.swift in Sources */,
+				2E365FDE2377B59D008F682B /* ContactsEngine.swift in Sources */,
+				2E365FDA2377ADF4008F682B /* ContactDetails.swift in Sources */,
 				8412B6C821FFFD7D00EA728D /* AppDelegate.swift in Sources */,
 				846137C5220555E9009194EA /* ContactDetailsViewController.swift in Sources */,
 			);
@@ -436,7 +448,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 64SFR68HJX;
-				INFOPLIST_FILE = Contacts/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Contacts/Global/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -455,7 +467,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 64SFR68HJX;
-				INFOPLIST_FILE = Contacts/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Contacts/Global/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
